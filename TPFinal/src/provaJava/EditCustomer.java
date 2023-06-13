@@ -26,7 +26,7 @@ public class EditCustomer extends HttpServlet {
         out.print("<tr><td></td><td><input type='hidden' name='customer_id' value='"+ e.getId()+"'/></td></tr>");
         out.print("<tr><td>Nome:</td><td><input type='text' name='cust_name' value= '"+e.getCustName()+"' /></ td ></ tr > ");
         out.print("<tr><td>Cidade:</td><td><input type='text' name='city' value='"+e.getCity()+"'/></td></tr>");
-        out.print("<tr><td>Avaliação:</td><td><input type='text' name='grade' value= '"+e.getGrade()+"' /></ td ></ tr > ");
+        out.print("<tr><td>AvaliaÃ§Ã£o:</td><td><input type='text' name='grade' value= '"+e.getGrade()+"' /></ td ></ tr > ");
         out.print("<tr><td>Vendedor:</td><td><input type='text' name='salesman_id' value= '"+e.getSalesmanId()+"' /></ td ></ tr > ");
         out.print("<tr><td colspan='2'><input type='submit' value='Editar e Salvar'/></td></tr>");
         out.print("</table>");
@@ -37,5 +37,4 @@ public class EditCustomer extends HttpServlet {
 }
 
 
-//Douglas willian CB3005348
-//João Vitor Gino CB3005488
+//Gabriel Faustino CB3005399
