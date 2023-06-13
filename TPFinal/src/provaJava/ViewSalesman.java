@@ -22,7 +22,7 @@ public class ViewSalesman extends HttpServlet {
         List<salesman> list = generalDAO.getAllSalesmans();
         
         out.print("<table border='1' width='100%'");
-        out.print("<tr><th>Id</th><th>Nome</th><th>Cidade</th><th>Comiss„o</th><th>Editar</th><th>Excluir</th></tr>");
+        out.print("<tr><th>Id</th><th>Nome</th><th>Cidade</th><th>Comiss√£o</th><th>Editar</th><th>Excluir</th></tr>");
         for(salesman e:list)
         {
             out.print("<tr><td>" + e.getId() + "</td><td>" + e.getName() + "</td><td> "+e.getCity()+" </td><td> "+e.getCommission()+" </td><td><a href = 'EditSalesman?salesman_id="+e.getId()+"'> Editar </a></td><td><a href = 'DeleteSalesman?salesman_id="+e.getId()+"'> Excluir </a></td></tr> ");
@@ -32,7 +32,4 @@ public class ViewSalesman extends HttpServlet {
         out.close();
     }
 }
-
-
-//Douglas willian CB3005348
-//Jo„o Vitor Gino CB3005488
+//Gabriel Faustino CB3005399
