@@ -26,7 +26,7 @@ public class EditSalesman extends HttpServlet {
         out.print("<tr><td></td><td><input type='hidden' name='salesman_id' value='"+ e.getId()+"'/></td></tr>");
         out.print("<tr><td>Nome:</td><td><input type='text' name='name' value= '"+e.getName()+"' /></ td ></ tr > ");
         out.print("<tr><td>Cidade:</td><td><input type='text' name='city' value='"+e.getCity()+"'/></td></tr>");
-        out.print("<tr><td>Comiss„o:</td><td><input type='number' name='commission' value= '"+e.getCommission()+"' /></ td ></ tr > ");
+        out.print("<tr><td>Comiss√£o:</td><td><input type='number' name='commission' value= '"+e.getCommission()+"' /></ td ></ tr > ");
         out.print("<tr><td colspan='2'><input type='submit' value='Editar e Salvar'/></td></tr>");
         out.print("</table>");
         out.print("</form>");
@@ -35,6 +35,4 @@ public class EditSalesman extends HttpServlet {
     }
 }
 
-
-//Douglas willian CB3005348
-//Jo„o Vitor Gino CB3005488
+//Gabriel Faustino CB3005399
